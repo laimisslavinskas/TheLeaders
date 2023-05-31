@@ -1,0 +1,219 @@
+footer{
+    font-family: Arial;
+
+    height: auto;
+    max-height: 350px;
+    background-color: #00206470;
+}
+
+
+#pageTitleFF-div{
+    display: inline-block;
+    /*padding: 32px 24px;*/
+    margin-top: 0px;
+}
+
+#pageTitleFF img{
+    /*font-family: "Arial";*/
+    width: 20%;
+    color: rgb(255, 255, 255);
+    margin-left: 40%;
+}
+#pageTitleFF{
+  font-family: RussoOne;
+  font-size: 7.5rem;
+  color: rgb(255, 255, 255);
+  padding-bottom: 0;
+}
+
+
+footer h5{
+    display: flex;
+    font-weight: 200;
+    color: gold;
+    margin-left: 23%;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#f-container{
+    margin-left: 19.5%;
+    font-weight: 200;
+    min-width: 200px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    right: 20px;
+    margin-top: -70px;
+}
+
+.f-columns{
+    min-height: 350px; 
+    display: inline-block;
+    
+}
+
+.first-column{
+    float:left;
+    margin-top:20px;
+    margin-left: 100px;
+    margin-right: 80px;
+    border-image: linear-gradient(to right, #013770 100%, #013770 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    border-left: 8px solid;
+    padding: 15px;
+    padding-top: 1px;
+    /*line-height: 1.5em;*/
+}
+
+
+.first-column p{
+    font-size: 12px;
+    color: gold;
+    font-weight: 200;
+}
+
+.first-column h3{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+.first-column a{
+    color: rgb(255, 220, 24);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.first-column h2{
+    color: yellow;
+    font-size: 21px;
+
+}
+
+#footer-bottom{
+    padding-top:10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0023703b;
+    margin-top: -84px;
+    height: 70px;
+    justify-content: center;
+
+    
+}
+.columns2{
+    display: flex;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+  }
+
+  .custom-btn5{
+    display: inline-block;
+    position: fixed;
+    contain: content;
+    width: 625px;
+    height: 50px;
+    padding: 12px 17px;
+    padding-left: 10px;
+    padding-right: 230px;
+    color:white;
+
+    border: 2px solid rgba(255, 0, 55, 0.801);
+    box-shadow:
+    0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+    font-family: 'RussoOne';
+    font-weight: 400;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    
+    background-color: rgba(17, 17, 17, 0.651);
+  }
+  
+  
+  @media (max-width:1820px){
+    .f-columns{
+        min-height: 350px; 
+        display: inline-block;
+        
+    }
+    #f-container{
+        margin-left: 19.5%;
+        font-weight: 200;
+        min-width: 200px;
+        max-width: 90%;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -70px;
+    }
+    #pageTitleFF img{
+        /*font-family: "Arial";*/
+        width: 20%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        margin-left: 15%;
+
+        margin-right: auto;
+    }
+    .first-column p{
+        font-size: 14px;
+        color: gold;
+        font-weight: 200;
+    }
+
+    .first-column h3{
+        font-size: 14px;
+        font-weight: 200;
+        margin-bottom: 100px;
+    }
+    .first-column a{
+        color: rgb(255, 220, 24);
+        font-weight: 700;
+        font-size: 13px;
+        margin-bottom: 100px;
+    }
+    .first-column h2{
+        color: yellow;
+        font-size: 10px;
+
+    }
+  }
+
+
+  @media (max-width:480px){
+    footer{
+        font-family: Arial;
+    
+        height: auto;
+        max-height: 660px;
+        background-color: #00206470;
+    }
+    #pageTitleFF img{
+        /*font-family: "Arial";*/
+        width: 70%;
+        color: rgb(255, 255, 255);
+        align-items: center;
+    }
+    .first-column{
+        float:left;
+        justify-content: center;
+        
+        margin-top:20px;
+        margin-right: auto;
+        border-image: linear-gradient(to right, #013770 100%, #013770 100%);
+        border-image-slice: 1;
+        border-width: 3px;
+        border-left: 8px solid;
+        padding: 15px;
+        padding-top: 1px;
+        /*line-height: 1.5em;*/
+    }
+  }

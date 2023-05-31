@@ -1,0 +1,202 @@
+#get-new{
+    background-color: #0051ff48;
+    margin-top: 200px;
+    height: 300px;
+    margin-top: 0px; 
+    contain: content;
+    top: 0px;
+}
+
+#get-new-title{
+    margin-left: 23%;
+    margin-top: 20px;
+}
+#get-new-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    font-size:60px;
+    margin-top: 70px;
+}
+.columns1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 23%;
+    margin-right: auto;
+    margin-bottom: 120px;
+  }
+
+#buton {
+    float: left;
+    padding-right: 20px;
+  }
+  #buton img{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    top:5px;
+    right:15px;
+    box-shadow:
+    0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+  }
+  #buton-link {
+    float: left;
+    padding-right: 20px;
+    
+  }
+  #buton-link img{
+    position: fixed;
+    image-rendering: -webkit-optimize-contrast;
+    width: 103%;
+    background-color: #ff000000;
+    top:1px;
+    right:0px;
+    
+  }
+  #buton :nth-child(1){
+    margin-left: auto;
+  }
+  #buton :nth-child(3){
+    margin-right: auto;
+  }
+
+  .custom-btn2{
+    contain: content;
+    width: 625px;
+    height: 50px;
+    padding: 12px 17px;
+    padding-left: 10px;
+    padding-right: 230px;
+    color:white;
+
+    border: 2px solid rgba(255, 0, 55, 0.801);
+    box-shadow:
+    0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+    font-family: 'RussoOne';
+    font-weight: 400;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(17, 17, 17, 0.651);
+  }
+
+
+  .custom-btn3{
+    contain: content;
+    width: 136px;
+    height: 24px;
+    padding: 8px 17px;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    color:white;
+    text-shadow: 0px 0px 20px #FF0000;
+    border: 2px solid rgba(255, 0, 55, 0.801);
+    box-shadow:
+    0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+    font-family: 'RussoOne';
+    font-weight: 400;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(17, 17, 17, 0.651);
+  }
+  .custom-btn8{
+    contain: content;
+    width: 136px;
+    height: 30px;
+    padding: 8px 17px;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    color:white;
+    text-shadow: 0px 0px 20px #FF0000;
+    border: 2px solid rgba(255, 0, 55, 0.801);
+    box-shadow:
+    0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+    font-family: 'RussoOne';
+    font-weight: 400;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(17, 17, 17, 0.651);
+  }
+  .btn-2 {
+    transition: all 0.3s ease;
+  }
+  .btn-2:hover {
+     box-shadow:
+     0px -5px 50px 5px rgba(255, 0, 21, 0.459),
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+     background-color: #7507147e;
+  }
+  .btn-3 {
+    transition: all 0.3s ease;
+  }
+  .btn-8 {
+    transition: all 0.3s ease;
+  }
+  .btn-3:hover {
+     box-shadow:
+     0px -5px 50px 5px rgba(255, 0, 21, 0.459),
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+     background-color: #7507147e;
+  }
+  .btn-4 {
+    transition: all 0.3s ease;
+  }
+  .btn-4:hover {
+     box-shadow:
+     0px -5px 50px 5px rgba(255, 0, 21, 0.459),
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+     background-color: #7507147e;
+  }
+
+  @media (max-width:480px){
+    #get-new{
+      background-color: #0051ff48;
+      margin-top: 200px;
+      height: 500px;
+      margin-top: 0px; 
+      contain: content;
+      top: 0px;
+    }
+    .columns1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    }
+    #get-new-title{
+      text-align: center;
+      margin-left: 0%;
+      margin-top: 20px;
+  }
+    #get-new-title h1{
+      font-family: RussoOne;
+      font-weight: 200;
+      font-size:60px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 40px;
+  }
+    #buton-link{
+      padding-right: 0px;
+    }
+    #get-new #buton{
+      display: flex;
+      margin-bottom: 10px;
+      margin-left: 27.5%
+    }
+  }

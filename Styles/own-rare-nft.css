@@ -1,0 +1,133 @@
+#own-rare-nft{
+    background-color: #ffe2b080;
+    margin-top: 200px;
+    min-height: 250px;
+    height: auto;
+    margin-top: 0px; 
+    contain: content;
+    top: 0px;
+}
+
+
+#own-rare-nft-title{
+    margin-left: 21%;
+    margin-top: 0px;
+    max-width: 560px;
+    text-align: right;
+}
+#own-rare-nft-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:60px;
+}
+
+.own-rare-container{
+    position: fixed;
+    top:43px;
+    right: 23%;
+}
+
+#own-rare-text{
+    color: rgb(0, 0, 0);
+
+    max-width: 450px;
+
+}
+#own-rare-text p{
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 750;
+    line-height: 18px;
+}
+.own-rare-button{
+    text-align: center;
+    margin-top: -7px;
+    height: 40px;
+    width: 450px;
+    font-family: RussoOne;
+    background-color: black;
+    color:white;
+    font-size: larger;
+ }
+.own-rare-but{
+    text-align: center;
+    margin-top: 100px;
+
+    height: 40px;
+    width: 450px;
+    font-family: RussoOne;
+    background-color: black;
+    color:white;
+    font-size: larger;
+}
+.own-rare-but a{
+    padding-top: 10px;
+}
+.own-rare-button a{
+   line-height: 40px;
+}
+@media (max-width:1820px){
+    .own-rare-container{
+
+        position: inherit;
+        margin-left:27% ;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:480px){
+    #own-rare-nft-title{
+        margin-left: auto;
+        margin-top: 0px;
+        max-width: 560px;
+        text-align: center;
+    }
+    .own-rare-container{
+        top:43px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #own-rare-text{
+        color: rgb(0, 0, 0);
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        max-width: 450px;
+    
+    }
+    .own-rare-button{
+        text-align: center;
+        margin-top: -8px;
+        display: block;
+        justify-content: center;
+        /*margin-left: 7%;
+        margin-right: 7%;*/
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        width: 350px;
+        font-family: RussoOne;
+        background-color: black;
+        color:white;
+        font-size: larger;
+    }
+    
+}
+@media (max-width:399px){
+    .own-rare-button{
+        text-align: center;
+        display: block;
+        margin-top: -8px;
+        justify-content: center;
+        height: 40px;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: RussoOne;
+        background-color: black;
+        color:white;
+        font-size: larger;
+    }
+}

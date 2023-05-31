@@ -1,0 +1,36 @@
+@import url(./header.css);
+@import url(./fakeBody.css);
+@import url(./big-game.css);
+@import url(./game-starts.css);
+@import url(./get-new.css);
+@import url(./benefits.css);
+@import url(./own-rare-nft.css);
+@import url(./unique-artworks.css);
+@import url(./press.css);
+@import url(./team.css);
+@import url(./footer.css);
+@import url(./faq.css);
+@import url(./roadmap.css);
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url("/Img/Landing/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    min-width: auto;
+    height: auto;
+    margin: 0px;
+    font-family: "Russo One";
+    color:white;
+}
+
+
+
+@font-face {
+    font-family: RussoOne;
+    src: url(/Img/Fonts/RussoOne-Regular.ttf);
+}

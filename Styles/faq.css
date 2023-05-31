@@ -1,0 +1,115 @@
+
+  
+#faq{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  }
+
+#faq-title{
+
+    contain: content;
+}
+#faq-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    font-size:60px;
+}
+
+.container{
+
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 95%;
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-bottom:100px;
+  height: auto;
+  
+}
+  
+  .faq-heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 6em;
+    font-family: Arial;
+    font-weight: 200;
+    color: white;
+   
+  }
+  
+  .faq-card {
+    /*border: 1px solid #ff9900;
+    border-radius: 6px;*/
+    padding: 30px;
+    padding: 24px 20px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    background-color: #001225;
+    color: gold;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 19px;
+  }
+  
+  .faq-open-icon {
+    font-size: 22px;
+    position: absolute;
+    top: 18px;
+    right: 22px;
+
+    font-weight: 700;
+    margin-left: 100px;
+
+    padding-left: 100px;
+  }
+  
+  details[open] .faq-open-icon {
+    top: 18px;
+    right: 24px;
+  }
+  
+  details > summary {
+    list-style: none;
+  }
+  
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  details[open] summary {
+    color: #ffa601;
+    font-weight: 500;
+  }
+  
+  details[open] .faq-card-spoiler {
+    display: inline-block;
+    padding-top: 8px;
+    color: #ffffff;
+  }
+  
+  .faq-aftertext {
+    text-align: center;
+    color: #8b8b9a;
+  }
+  @media (max-width:500px){
+    #faq{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #faq-title{
+
+      contain: content;
+      text-align: center;
+  }
+    .container{
+      margin-left: 10px;
+      margin-right: 1px;
+    }
+  }

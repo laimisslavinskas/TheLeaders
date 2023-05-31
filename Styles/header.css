@@ -1,0 +1,314 @@
+header{
+    background-color: black;
+    height: auto;
+    display:flex;
+    position: sticky;
+    margin-top: -8px; 
+    width: 100%;
+    contain: content;
+    transition: 0.2s;
+    z-index: 2;
+    top: 0px;
+    border-bottom: 2px solid;
+    border-color: #750713;
+}
+#landing-text{  
+    font-size: 28px;
+    display: block;
+    font-family: RussoOne;
+    margin-top: 290px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#landing-text h1{
+padding: 0;
+margin:10px;
+line-height: 40px;
+font-weight: 100;
+}
+
+#down-title-text{
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#down-title-text h3{
+  padding: 0;
+  margin: 2px;
+  line-height: 20px;
+}
+
+.columns{
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+#buton {
+  float: left;
+  padding-right: 20px;
+}
+
+#buton :nth-child(1){
+  margin-left: auto;
+}
+#buton :nth-child(3){
+  margin-right: auto;
+}
+.custom-btn {
+  width: 160px;
+  height: 27px;
+  padding: 8px 17px;
+  padding-left: 20px;
+
+  padding-right: 20px;
+  color:white;
+  text-shadow: 0px 0px 20px #FF0000;
+  border: 2px solid rgba(255, 0, 55, 0.801);
+  box-shadow:
+  0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+  font-family: 'RussoOne';
+  font-weight: 400;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  background-color: rgba(17, 17, 17, 0.651);
+}
+
+.btn-1 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+   box-shadow:
+   0px -5px 50px 5px rgba(255, 0, 21, 0.459),
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+   background-color: #7507147e;
+}
+
+
+
+
+#pageTitle-div{
+    display: inline-block;
+    margin-top: 0px;
+
+}
+
+header #pageTitle a img{
+    /*font-family: "Arial";*/
+
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30%;
+}
+header a{
+  display: inline-block;
+  margin: auto;
+  max-width: 60%;
+}
+.titles{
+    display: flex;
+    margin: auto;
+    max-width: 50%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.links{
+    margin:auto;
+    position: fixed;
+    display: flex;
+    right: 14%;
+    background-color: #750713;
+  
+  }
+  
+  .socialLinkImg{
+      display: inline-flex;
+      width: 32px;
+      padding: 2px;
+      flex: 1;
+  }
+  .socialLinkImg img{
+    width: 10px;
+}
+  #discordLink{
+    padding: 2px;
+    padding-top: 12px;
+  }
+
+
+
+.openbtn {
+font-size: 25px;
+cursor: pointer;
+background-color: rgba(17, 17, 17, 0);
+color: rgb(255, 132, 132);
+padding: 10px;
+padding-top: auto;
+padding-bottom: auto;
+border: none;
+left: 18px;
+margin-left: 1rem;
+position: fixed;
+margin-top: 1.90%;
+
+}
+
+.openbtn img{
+   width: 50px;
+   height: 25px;
+}
+
+
+#mySidebar{
+position: fixed;
+height: 100%;
+z-index: 3;
+min-height: 650px;
+top: 0;
+right: 0;
+}
+
+.sidebar {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0;
+left: 0px;
+background-color: #111; /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+  
+/* The sidebar links */
+.sidebar a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-family: "Arial";
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+  
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #ff8888;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+
+
+
+
+.openbtn:hover {
+background-color: #444;
+}
+
+@media (max-width:480px){
+
+#landing-text{
+  margin-top: 100px;
+}
+.titles{
+  display: flex;
+  margin: auto;
+  max-width: 90%;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.socialLinkImg{
+  display: inline-block;
+  width: 20px;
+  padding: 2px;
+  flex: 1;
+}
+.socialLinkImg img{
+  width: 10px;
+}
+.links{
+  margin:auto;
+  position: fixed;
+  display: flex;
+  right: 4%;
+  background-color: #750713;
+
+}
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgba(17, 17, 17, 0);
+  color: rgb(255, 132, 132);
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: auto;
+  border: none;
+  left: 18px;
+  margin-left: 0.1%;
+  position: fixed;
+  margin-top: 1.10%;
+  
+  }
+.openbtn img{
+  width: 30px;
+  height: 15px;
+}
+.columns{
+  display:block;
+  padding-bottom: 100px;
+}
+
+#landing #buton{
+  margin-bottom: 10px;
+  display: block;
+  margin-left: 25%;
+  margin-right: auto;
+}
+}
+
+@media (max-width:430px){
+  #landing #buton{
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 24%;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width:400px){
+  #landing #buton{
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 23%;
+    margin-right: auto;
+  }
+}

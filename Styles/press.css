@@ -1,0 +1,85 @@
+#press{
+    background-image: url("/Img/Press/press-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 236px;
+    contain: content;
+    top: 0px;
+}
+
+#press-title{
+    text-align: center;
+    margin-top: 48px;
+}
+
+#press-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    line-height: 0px;
+}
+#press-desc{
+    text-align: center;
+    
+}
+#press-desc h2{
+    color:black;
+    font-family: RussoOne;
+    font-size: large;
+    line-height: 10px;
+}
+.press-links{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pLink{
+    height: 50px;
+}
+.pLink img{
+    height: 30px;
+    padding-left: 50px;
+}
+
+@media (max-width:480px){
+    #press-title h1{
+        font-family: RussoOne;
+        font-weight: 200;
+        line-height: 0px;
+    }
+    #press-title{
+        text-align: center;
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+    
+    #press-desc h2{
+        color:black;
+        font-family: RussoOne;
+        font-size: large;
+        line-height: 20px;
+    }
+    .press-links{
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+        display:contents;
+        position: fixed;
+        margin-left: 100px;
+        margin-right: auto;
+    }
+    .pLink{
+        height: 50px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pLink img{
+        height: 30px;
+        padding-left: 0px;
+    }
+}

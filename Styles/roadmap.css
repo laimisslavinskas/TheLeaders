@@ -1,0 +1,107 @@
+#roadmap{
+    background-color: #ad000046;
+    margin-top: 200px;
+    min-height: 1000px;
+    height: auto;
+    margin-top: 0px; 
+    contain: content;
+    display:flex;
+    top: 0px;
+}
+
+.roadmap-container{
+  margin-left: 23%;
+  margin-top: 10%;
+
+}
+#roadmap-title h1{
+  font-family: RussoOne;
+  font-weight: 200;
+  font-size:60px;
+}
+#roadmap-desc h2{
+    font-family: RussoOne;
+    font-weight: 200;
+    margin-top: -3%;
+    font-size:25px;
+    max-width: 500px;
+  }
+
+#roadmap-map img{
+    margin-top: 4%;
+    padding-left: 5%;
+    margin-right: 21%;
+}
+
+@media (max-width:2600px){
+    #roadmap-map img{
+        display: flex;
+        position:fixed;
+        margin-top: 4%;
+        padding-left: 5%;
+        right: 10px;
+    }
+}
+
+@media (max-width:1820px){
+    #roadmap{
+        display: block;
+    }
+    #roadmap-map img{
+        position: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+}
+@media (max-width:480px){
+    .roadmap-container{
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 10%;
+      }
+
+      #roadmap-map img{
+        margin-top: 4%;
+        width: 90%;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+/*
+<div class="map-container">
+<div id="map-child">
+    <h5>1979</h5>
+    <p>Socialist fraternal kiss</p>
+</div>
+<div id="map-child">
+    <h5>1990</h5>
+    <p>Berlin wall graffiti art</p>
+    <h2>BREZHNEV KISS ERICH</h2>
+</div>
+<div id="map-child">
+    <h5>2016</h5>
+    <p>Mural in Vilnius</p>
+    <h2>TRUMP KISSING PUTIN</h2> 
+</div>
+<div id="map-child">
+    <h5>2021</h5>
+    <p>Collabration with</p>
+    <h2>Trust NFT</h2>
+</div>
+<div id="map-child">
+    <h5>2021</h5>
+    <p>Collabration with</p>
+    <h2>Trust NFT</h2>
+</div>
+<div id="map-child">
+    <h5>2021</h5>
+    <p>Collabration with</p>
+    <h2>Trust NFT</h2>
+</div>
+</div>*/

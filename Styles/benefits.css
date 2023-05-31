@@ -1,0 +1,126 @@
+#benefits{
+    margin-top: 200px;
+    height: auto;
+    margin-top: -8px; 
+    contain: content;
+    margin-bottom: 60px;
+    top: 0px;
+}
+
+#benefits-title{
+    margin-top: 0px;
+    margin-left: 23%;
+}
+#benefits-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:60px;
+}
+
+#benefits-text{
+    margin-left: 22.5%;
+    max-width: 550px;
+    display: flex;
+}
+#benefits-text img{
+    height: 100px;
+    width: 100px;
+}
+#benefits-text p{
+    font-family: "Arial";
+    font-weight: 600 ;
+    font-size: 17px;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+
+
+
+
+/*---------------------------------------------------*/
+
+
+.benefits-container{
+position: fixed;
+top:150px;
+padding: 2px;
+right: 23%;
+border-style: solid;
+border-color: #ec0c22;
+box-shadow:
+  0px 3px 30px 0px rgba(255, 0, 119, 0.459);
+margin-bottom: 100px;
+
+}
+
+#benefits-container-title{
+    text-align: center;
+    background-color: #0051ff48;;
+    padding:20px;
+    font-family: RussoOne;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px #FF0000;
+}
+
+#benefits-container-list{
+    padding:12px;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+#benefits-container-list p{
+   font-family: RussoOne;
+   line-height: 5px;
+   text-shadow: 0px 0px 20px #FF0000;
+}
+
+#benefits-container-desc{
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 12px;
+}
+#benefits-container-desc p :first-child{
+    margin-top: -200px;
+}
+#benefits-container-desc p{
+    font-family: Arial;
+}
+
+
+.benefits-left-part{
+    overflow: visible;
+    padding: 5px;
+    position:relative
+}
+@media (max-width:1820px){
+    .benefits-container{
+        top: 30px;
+        position: inherit;
+        max-width: 423px;
+        border-collapse: separate;
+        border-spacing: 20px;
+        left:27% ;
+    }
+}
+@media (max-width:480px){
+    #benefits-title{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .benefits-container{
+        top: 30px;
+        position: inherit;
+        max-width: 423px;
+        border-collapse: separate;
+        border-spacing: 20px;
+        left:0.2% ;
+    }
+    #benefits-text{
+        margin-left: 0%;
+        margin-right: 7%;
+        max-width: 550px;
+        display: flex;
+    }
+}
